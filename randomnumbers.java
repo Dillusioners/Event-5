@@ -2,6 +2,7 @@ public class randomnumbers
 {
     static void check(int a, int b, int c, int d, int e)
     {
+        //altering values
         int w = a;
         int x = b;
         int y = c;
@@ -13,7 +14,7 @@ public class randomnumbers
         int o = 0;
         int p = 0;
         int q = 0;
-
+        //loops to randomize values
         while (w != 0)
         {
             int k = w % 10;
@@ -44,7 +45,7 @@ public class randomnumbers
             f = f / 10;
             q = q + i;
         }
-        
+        //printing the random number
         int j = m + n + o + p + q;
         System.out.print("The random number is: "+j);
     }
